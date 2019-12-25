@@ -1,7 +1,7 @@
 :root {
 --primary-color: #c72727;
 --secondary-color: #f99500;
---light-color: #f3f3f3;
+--light-color: #ccc;
 --dark-color: #333;
 --max-width: 1200px
 }
@@ -54,7 +54,7 @@ body {
 
  /* Navigation */
  #main-nav {
-     background: #ffff;
+    background: #fff;
     position: sticky;
     top: 0;
     z-index: 2;
@@ -64,7 +64,11 @@ body {
      display: grid;
      grid-template-columns: 6fr 3fr 2fr;
      padding: 1rem;
-     align-items: cgitenter;
+     align-items: center;
+ }
+
+ #main-nav img {
+     width: 180px;
  }
 
  
