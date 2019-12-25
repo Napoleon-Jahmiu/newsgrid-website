@@ -21,7 +21,7 @@
 body {
     font-family: 'Lato', sans-serif;
     line-height: 1.4;
-    background: var (var(--light-color));
+    background: var(--light-color);
  }
 
  a {
@@ -71,4 +71,45 @@ body {
      width: 180px;
  }
 
- 
+ #main-nav ul {
+    justify-self: end;
+    display: flex;
+ }
+
+ #main-nav ul li a {
+     padding: 0.50rem;
+     font-weight: bold;
+ }
+
+ #main-nav ul li a.current {
+     background: var(--primary-color);
+ }
+
+ #main-nav ul li a:hover {
+    background: var(--light-color)
+ }
+
+#main-nav .social {
+    justify-self: center;
+    padding: .50rem;
+}
+
+#main-nav .social i {
+    margin-left: .50rem;
+    
+}
+
+#main-nav .social .facebook,
+#main-nav .social .twitter {
+    color: blue;
+}
+
+#main-nav .social .instagram {
+    color: palevioletred;
+}
+
+#main-nav .social .youtube {
+    color: red;
+}
+
+
